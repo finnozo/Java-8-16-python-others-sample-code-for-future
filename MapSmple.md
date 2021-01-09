@@ -19,3 +19,34 @@ storeDataRepository.findAllAndActiveTrue()
                     return res;
                 }).collect(Collectors.toList());
 ```
+
+
+# Map list of Data
+
+```Java
+
+private List<InventoryTransactionDTO> feedInventoryTransactionDTO(List<InventoryTransaction> inventoryTransactions) {
+        return inventoryTransactions
+                .stream().map(InventoryServiceImpl::apply)
+                .collect(Collectors.toList());
+    }
+
+    private static InventoryTransactionDTO apply(InventoryTransaction inventoryTransaction) {
+        InventoryTransactionDTO dto = new InventoryTransactionDTO();
+        dto.setId(inventoryTransaction.getId());
+        dto.setInvoiceId(inventoryTransaction.getInvoiceId());
+        dto.setSku(inventoryTransaction.getSku());
+        dto.setBatch(inventoryTransaction.getBatch());
+        dto.setQuantity(inventoryTransaction.getQuantity());
+        dto.setExpiryDate(inventoryTransaction.getExpiryDate());
+        dto.setInvoiceDateETA(inventoryTransaction.getInvoiceDateETA());
+        dto.setArrivalDateETA(inventoryTransaction.getArrivalDateETA());
+        dto.setMFGDate(inventoryTransaction.getMFGDate());
+        dto.setQCDateETA(inventoryTransaction.getQCDateETA());
+        dto.setInventoryTransitModeId(inventoryTransaction.getInventoryTransitMode().getId());
+        dto.setInventoryTransitModeValue(inventoryTransaction.getInventoryTransitMode().getValue());
+        return dto;
+    }
+
+
+```
