@@ -50,3 +50,12 @@ private List<InventoryTransactionDTO> feedInventoryTransactionDTO(List<Inventory
 
 
 ```
+
+```java
+
+    
+        List<User> sortedList = users.stream()
+            .sorted(Comparator.comparingInt(User::getAge))
+            .collect(Collectors.toList());
+
+```
