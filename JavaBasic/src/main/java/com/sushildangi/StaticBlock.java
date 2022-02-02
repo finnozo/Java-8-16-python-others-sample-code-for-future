@@ -5,6 +5,10 @@ public class StaticBlock {
         System.out.println("Hello World");
     }
     static {
-        System.out.println("Static block test");
+        System.out.println("Static block test1");
+    } static {
+        System.out.println("Static block test2");
+    } static {
+        System.out.println("Static block test3");
     }
 }
