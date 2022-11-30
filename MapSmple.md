@@ -90,3 +90,11 @@ list.stream()
                                     Collectors.summingInt(foo->foo.targetCost)))
   .forEach((id,sumTargetCost)->System.out.println(id+"\t"+sumTargetCost));
 ```
+
+# Group By and count
+
+```java
+   list.stream()
+  .collect(Collectors.groupingBy(foo -> foo.id, Collectors.counting()))
+  .forEach((id,count)->System.out.println(id+"\t"+count));
+```
