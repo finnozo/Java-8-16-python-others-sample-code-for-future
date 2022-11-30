@@ -81,3 +81,12 @@ private List<InventoryTransactionDTO> feedInventoryTransactionDTO(List<Inventory
                 .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue,
                         (oldValue, newValue) -> oldValue, LinkedHashMap::new));
 ```
+
+# Group By and Sum
+
+```java
+list.stream()
+  .collect(Collectors.groupingBy(foo -> foo.id,
+                                    Collectors.summingInt(foo->foo.targetCost)))
+  .forEach((id,sumTargetCost)->System.out.println(id+"\t"+sumTargetCost));
+```
