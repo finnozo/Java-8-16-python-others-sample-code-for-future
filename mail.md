@@ -1,8 +1,11 @@
+
 ```properties
   spring.mail.host=email-smtp.us-east-1.amazonaws.com
   spring.mail.username=<your-aws-access-key-id>
   spring.mail.password=<your-aws-secret-access-key>
 ```
+
+
 
 ```maven
 <dependency>
@@ -17,6 +20,8 @@
 </dependency>
 
 ```
+
+
 
 
 ```java
@@ -41,8 +46,10 @@ public class EmailService {
     javaMailSender.send(message);
   }
 }
-
 ```
+
+
+
 
 ```java
 import org.springframework.mail.SimpleMailMessage;
@@ -63,5 +70,6 @@ public class EmailService {
     javaMailSender.send(message);
   }
 }
+
 
 ```
