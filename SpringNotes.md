@@ -31,3 +31,6 @@
 	}
 ```
 
+```maven
+	./mvnw -DPROFILE_ACTIVE=dev clean package
+```
