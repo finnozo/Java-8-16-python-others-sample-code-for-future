@@ -28,3 +28,12 @@ public static <T> Predicate<T> distinctByKey(Function<? super T, Object> keyExtr
   return t -> map.putIfAbsent(keyExtractor.apply(t), Boolean.TRUE) == null;
 }
 ```
+
+
+```java
+Map<Integer, AdditionalData> map = additionalData.stream()
+                .collect(Collectors.groupingBy(AdditionalData::getVariantId,
+                        Collectors.collectingAndThen(
+                                Collectors.toList(),
+                                values -> values.get(0))));
+```
