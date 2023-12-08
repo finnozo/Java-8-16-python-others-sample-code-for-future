@@ -98,3 +98,18 @@ list.stream()
   .collect(Collectors.groupingBy(foo -> foo.id, Collectors.counting()))
   .forEach((id,count)->System.out.println(id+"\t"+count));
 ```
+
+# duplicate key problem solving snipet
+
+```java
+   Map<String, String> phoneBook = 
+    people.stream()
+          .collect(Collectors.toMap(
+             Person::getName,
+             Person::getAddress,
+             (address1, address2) -> {
+                 System.out.println("duplicate key found!");
+                 return address1;
+             }
+          ));
+```
