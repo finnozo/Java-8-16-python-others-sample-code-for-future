@@ -25,3 +25,5 @@ As an interviewee, it can be challenging to come up with impressive questions to
 - 💡 Question 3 (Average response time to a critical production incident) helps gauge the team’s preparedness, automation, and incident management culture.
 - 💡 Question 4 (Deployment frequency) indicates the team’s agility, adaptability, and the presence of automated processes.
 - 💡 Question 5 (Average onboarding time for new developers) offers perspective on onboarding experience, team collaboration, and codebase complexity.
+
+![Interview Questions](https://github.com/sushildangi/Java-8-16-python-others-sample-code-for-future/blob/main/NoteGPT_MindMap_1714314823406.png)
