@@ -2,6 +2,7 @@
 
 - [x] **Event Driven**
 - [x] **Spring Boot: Spring Security upgrade**
+- [ ] **Spring Boot 3 Observability | Monitor Method & Service Performance**
 - [ ] **Spring Session**
 - [ ] **Spring Integration**
 - [ ] **Spring HATEOAS**
