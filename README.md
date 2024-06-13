@@ -14,3 +14,4 @@
 - [ ] **Spring for Apache Pulsar**
 - [ ] **Spring Boot: Implement and use Redis for caching**
 - [ ] **Java Upgrade**
+- [ ] **Advance Caching using Redis**
