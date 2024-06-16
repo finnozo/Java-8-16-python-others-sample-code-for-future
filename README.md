@@ -1,3 +1,4 @@
+:hearts: :gem: :four_leaf_clover:
 # My skills required for future performances
 
 :white_check_mark: **Event Driven**\
