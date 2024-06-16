@@ -1,19 +1,20 @@
 # My skills required for future performances
 
-- [x] **Event Driven**
-- [x] **Spring Boot: Spring Security upgrade**
-- [x] **Spring Boot: Virtual Thread**
-- [ ] **Spring Boot 3 Observability | Monitor Method & Service Performance**
-- [ ] **Spring Session**
-- [ ] **Spring Integration**
-- [ ] **Spring HATEOAS**
-- [ ] **Spring Modulith**
-- [ ] **Spring REST Docs**
-- [ ] **Spring AI**
-- [ ] **Spring Batch**
-- [ ] **Spring for Apache Kafka**
-- [ ] **Spring for Apache Pulsar**
-- [ ] **Spring Boot: Implement and use Redis for caching**
-- [ ] **Java Upgrade**
-- [ ] **Advance Caching using Redis**
-- [ ] **GraphQL**
+:white_check_mark: **Event Driven**\
+:white_check_mark: **Spring Boot: Spring Security upgrade**\
+:white_check_mark: **Spring Boot: Virtual Thread**\
+:x: **Spring Boot 3 Observability | Monitor Method & Service Performance**\
+:x: **Spring Session**\
+:x: **Spring Integration**\
+:x: **Spring HATEOAS**\
+:x: **Spring Modulith**\
+:x: **Spring REST Docs**\
+:x: **Spring AI**\
+:x: **Spring Batch**\
+:x: **Spring for Apache Kafka**\
+:x: **Spring for Apache Pulsar**\
+:x: **Spring Boot: Implement and use Redis for caching**\
+:x: **Java Upgrade**\
+:x: **Advance Caching using Redis**\
+:x: **GraphQL**
+
