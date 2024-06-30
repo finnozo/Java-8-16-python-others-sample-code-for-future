@@ -19,3 +19,7 @@ git --version
 ```
     git status
 ```
+
+```
+    git config --list
+```
