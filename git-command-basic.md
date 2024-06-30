@@ -27,3 +27,7 @@
 ```
     git init
 ```
+
+```
+    git add fileName/.
+```
