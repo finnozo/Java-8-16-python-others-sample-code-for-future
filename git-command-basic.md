@@ -15,3 +15,7 @@
 ```
 git --version
 ```
+
+```
+    git status
+```
