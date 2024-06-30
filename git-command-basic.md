@@ -31,3 +31,8 @@
 ```
     git add fileName/.
 ```
+### unstage file
+
+```
+    git rm --cached fileName/.
+```
