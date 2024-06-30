@@ -36,3 +36,7 @@
 ```
     git rm --cached fileName/.
 ```
+
+```
+    git commit -m "First commit"
+```
