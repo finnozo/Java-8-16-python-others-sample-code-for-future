@@ -13,7 +13,7 @@
 ## Basic command section 1
 
 ```
-git --version
+    git --version
 ```
 
 ```
