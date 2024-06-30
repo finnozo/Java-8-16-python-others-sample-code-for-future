@@ -23,3 +23,7 @@
 ```
     git config --list
 ```
+
+```
+    git init
+```
