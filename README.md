@@ -4,6 +4,7 @@
 :white_check_mark: **Event Driven**\
 :white_check_mark: **Spring Boot: Spring Security upgrade**\
 :white_check_mark: **Spring Boot: Virtual Thread**\
+:white_check_mark: **Spring Boot: GZIP Compression**\
 :x: **Git Brush up**\
 :x: **Spring Boot: JUnit 5 and Mockito, MockMvc, TDD**\
 :x: **Spring Boot 3 Observability | Monitor Method & Service Performance**\
