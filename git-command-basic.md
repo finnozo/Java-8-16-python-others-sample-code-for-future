@@ -40,3 +40,16 @@
 ```
     git commit -m "First commit"
 ```
+
+### Delete Local branch
+```
+        git branch -D <branch_name>
+
+```
+
+### Delete Remove Branch
+
+```
+        git push -d <remote_name> <branchname>
+        eg: git push -d origin test
+```
